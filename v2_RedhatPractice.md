@@ -1,6 +1,6 @@
 # RedHat Practice
 
-**Q0: Configure Network **
+**Q0: Configure Network**
 
 ```
 Configure the network as follows:
@@ -33,7 +33,7 @@ Configure the network as follows:
 Configure the selinux mode of your system as enforcing.
 ```
 
-**Solution:  **
+**Solution:**
 
 First, set to enforcing using `setenforce` command. This is only a temporary change. Meaning, will be changed after reboot.
 
@@ -72,7 +72,7 @@ SELINUXTYPE=targeted
 Configure your machine such that you are able to download exam softwares from http://content.example.com/rhel7.0/x86_64/dvd/
 ```
 
-**Solution:  **
+**Solution:**
 
 1. Create a file with `.repo` extension in `/etc/yum.repos.d/` folder. In this example, I have created a repo named `errata.repo` with the given link. 
 
@@ -947,7 +947,7 @@ total 7152
 - Log in as ldapuserX, (where X is your foundation number) with password 'password'.
 ```
 
-**Solution:  **
+**Solution:**
 
 1. Install `authconfig-gtk` and `sssd` packages using `yum -y install authconfig-gtk sssd`.
 
